@@ -1,0 +1,6 @@
+shengao = input("请输入身高:")
+tizhong = input("请输入体重:")
+zhiye = input("职业:")
+xueli = input("请输入学历")
+shenfenzhneg = input("请输入身份证号")
+print("身高%s:\n体重%s:\n职业%s:\n学历%s:\n身份证号码%s"%(shengao,tizhong,zhiye,xueli,shenfenzheng))
