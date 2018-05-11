@@ -20,52 +20,58 @@ else:
 
 
 
-'''
+
 import random
 while True:
     cp = random.randint(1,3)
-
     user=int(input("请输入1--石头 2--剪刀 3--布:"))
+#print("他出的是%d "%user)
+    if cp == 1:
+        print("他出了石头")
+    elif cp == 2:
+        print("他出了剪刀")
+    elif cp == 3:
+        print("他出了布")
     if (user==1 and cp==2) or (user==2 and cp==3) or (user==3 and cp==1):
         print("玩家赢")
     elif user == cp:
         print("平局")
     else:
-        print("你还是不行")
+        print("你不行")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import random
 while True:
     mm = random.randint(1,3)
@@ -76,7 +82,7 @@ while True:
         print("一定要娶了刘蕊")
     else:
         print("一定给刘蕊一个家")
-
+'''
 
 
 
