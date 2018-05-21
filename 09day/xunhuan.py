@@ -1,7 +1,5 @@
 a = 20
-while True:c = 12
+while a<=20:
     print("hello world")
-
-
-
-print("===============")
+    a+=1
+    break
