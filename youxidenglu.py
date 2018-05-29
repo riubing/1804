@@ -43,22 +43,23 @@ def dengchu():
     for i in list:
         if sss == i["sss"]:
             if i.get("status") == 1:
-                print("账号退出成功")
+                print("退出成功")
                 i.get("status") == 0
             else:
                 print("账号未登录")
                 flag == 1
                 break
-            #if flag == 0:
-                #print("账号不存在")
-def
+            if flag == 0:
+                print("账号不存在")
+
+
+
 
 while True:
-        cux = int(input("请选择功能：1：注册 2：登录 3：退出 "))
-        if cux == 1:
+    cux = int(input("请选择功能：1:注册2:登录3:退出账号"))
+    if cux == 1:
                 shuru()
-        elif cux == 2:
+    elif cux == 2:
                 denglu()
-        elif cux == 3:
+    elif cux == 3:
                 dengchu()
-
