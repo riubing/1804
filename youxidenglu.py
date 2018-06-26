@@ -1,5 +1,9 @@
 print("="*30)
+print( )
+print("我英俊潇洒的主人")
 print("欢迎来到王者荣耀注册系统")
+print("祝您玩的开心")
+print( )
 print("="*30)
 list = []
 def shuru():
@@ -49,17 +53,23 @@ def dengchu():
                 print("账号未登录")
                 flag == 1
                 break
-            if flag == 0:
-                print("账号不存在")
+                #flag == 0
+                #print("账号不存在")
 
+#def shanchu():
+    #sss=input("请输入要删除的账号")
+    #pwd=input("请输入要删除账号的密码")
+    #sss=
 
 
 
 while True:
-    cux = int(input("请选择功能：1:注册2:登录3:退出账号"))
+    cux = int(input("请选择功能：1:注册账号2:登录游戏3:删除账号4:修改账号:"))
     if cux == 1:
                 shuru()
     elif cux == 2:
                 denglu()
     elif cux == 3:
-                dengchu()
+                shanchu()
+    elif cux == 4:
+                xiugai()
