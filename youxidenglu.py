@@ -56,11 +56,17 @@ def dengchu():
                 #flag == 0
                 #print("账号不存在")
 
-#def shanchu():
-    #sss=input("请输入要删除的账号")
-    #pwd=input("请输入要删除账号的密码")
-    #sss=
-
+def shanchu():
+    sss=input("请输入要删除的账号")
+    pwd=input("请输入要删除账号的密码")
+    flag=0
+    for i in list:
+        if sss==i["sss"]:
+            shanchu.pop["sss"]
+            if sss == i["sss"]:
+                print("删除成功")
+            else:
+                print("账号不存在")
 
 
 while True:
